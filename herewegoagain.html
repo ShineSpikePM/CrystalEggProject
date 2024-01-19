@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Air Pollution Chart</title>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
+    <body>
+        <canvas id="airPollutionChart" width="400" height="200"></canvas>
+
+        <script>
+            // Your JSON data
+            const jsonData = {
+                "BANGLADESH": {
+                    "City": {
+                        "Dhaka": {
+                            // ... (your data)
+                            "Air Pollution": 78
+                        }
+                    }
+                }
+            };
+
+            // Extracting data for the chart
+            const years = [jsonData.BANGLADESH.City.Dhaka.Year];
+            const airPollutionValues = [jsonData.BANGLADESH.City.Dhaka["Air Pollution"]];
+
+            // Creating the chart
+            const ctx = document.getElementById('airPollutionChart').getContext('2d');
+            const airPollutionChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: years,
+                    datasets: [{
+                        label: 'Air Pollution',
+                        data: airPollutionValues,
+                        backgroundColor: 'rgba(75, 192, 192, 0.2)', // Change color as needed
+                        borderColor: 'rgba(75, 192, 192, 1)', // Change color as needed
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        </script>
+    </body>
+</html>

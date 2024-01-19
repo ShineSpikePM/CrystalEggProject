@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- D3 JavaScript -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hotan China</title>
+
+  </head> 
+  <body style="background-color:rgb(3, 98, 100)"></body>
+  <script src="ChartTest2.js"></script>
+
+
+    <div class="col-8 offset-3 my-5">
+        <div class="card">
+        <div class="card-body">
+            <h5>Hotan, China Air Pollution</h5>
+            <hr>
+                <div>
+                    <canvas id="chart2" width="400" height="200"></canvas>
+                </div>
+                <button onclick="updateChart()"> Fetch Now</button>
+        </div>
+    </div>
+</div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!---script for chart.js-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!---variable that creates the chart 'myChart'-->
+    <script>
+    const api_data = 'AirQuality.resources.json';
+    async function getAir(){
+        const response = await fetch('AirQuality.resources.json');
+        const data = await response.json();
+        const {City, Year} = data;
+
+        document.getElementById('Year') == Year;
+        document.getElementById('City') == City;
+
+        //console.log(data);
+    }
+
+    getAir();
+
+    const ctx = document.getElementById('myChart');
+    // const data1 = [12, 19, 3, 5, 2, 3]
+    // this can be used to display the data, and then just reference data1 in the dataset
+    // THIS WILL BE USEFUL WHEN DISPLAYING THE MONGODB DATA
+
+    </script>
+
+    <script>
+    function updateChart(){
+        async function fetchData(){
+            const url = 'https://raw.githubusercontent.com/LuzMaria04/Project-03-Team-Crystal-Egg/main/energydata.energypollution.json';
+            const response = await fetch(url); 
+            // wait until the request is completed
+            const datapoints = await response.json();
+            console.log(datapoints);
+            return datapoints;
+        };
+
+        fetchData().then(datapoints => {
+            const dataCity = datapoints.map(function(index){
+                return index.City;
+            })
+            const dataPollution = datapoints.map(function(index){
+                return index["Air Pollution"];
+            })
+            const dataYear = datapoints.map(function(index){
+                return index.Year;
+            })
+            console.log(dataCity[0]);
+            console.log(dataPollution);
+            console.log(dataYear[0]);
+            myChart.config.data.labels = dataYear; 
+            myChart.config.data.datasets[0] = dataCity;
+            myChart.update();
+        })
+
+        const myChart = document.getElementById('chart2');
+        new Chart(myChart, {
+        // type of chart we want to create
+        type: 'line',
+        // the data for the chart
+        data: {
+        labels: dataCity,
+        
+        // add the data
+        datasets: [{
+            label: 'PM2.5 (Particles in air)',
+            data: dataYear,//[92,116,110,110,102],
+            borderWidth: 1,
+            backgroundColor: ['teal'],
+            borderColor: 'black'
+        }]
+        },
+        options: {
+        scales: {
+            y: {
+            beginAtZero: true
+            }
+        }
+        }
+        })};
+
+    
+    </script>
+        </script>
+
+        
+    </body>
+    </html>

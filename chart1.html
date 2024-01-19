@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- D3 JavaScript -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hotan China</title>
+
+  </head>
+  <body style="background-color:rgb(3, 98, 100)"></body>
+  <script src="ChartTest2.js"></script>
+
+    <div class="col-8 offset-2 my-5">
+        <div class="card">
+        <div class="card-body">
+            <h5>Hotan, China Electricity Production by Type</h5>
+            <hr>
+                <div>
+                    <canvas id="myChart" width="400" height="200"></canvas>
+                </div>
+        </div>
+    </div>
+
+
+    <div class="col-8 offset-0 my-5">
+        <div class="card">
+        <div class="card-body">
+            <h5>Hotan, China Air Pollution</h5>
+            <hr>
+                <div>
+                    <canvas id="chart2" width="400" height="200"></canvas>
+                </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!---script for chart.js-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!---variable that creates the chart 'myChart'-->
+    <script>
+    const ctx = document.getElementById('myChart');
+    // const data1 = [12, 19, 3, 5, 2, 3]
+    // this can be used to display the data, and then just reference data1 in the dataset
+    // THIS WILL BE USEFUL WHEN DISPLAYING THE MONGODB DATA
+
+    new Chart(ctx, {
+        // type of chart we want to create
+        type: 'bar',
+        // the data for the chart
+        data: {
+        labels: ['2017', '2018', '2019', '2020', '2021'],
+        
+        // add the data
+        datasets: [{
+            label: 'Solar',
+            data: [117.8,176.9,224,261.1,327],
+            borderWidth: 1,
+            backgroundColor: ['rgb(218, 196, 208)']  
+        },{ // to add another set of data to the same chart,
+            // add it as another set within the datasets array
+            label: 'Wind',
+            data: [304.6,365.8,405.3,466.5,655.6],
+            borderWidth: 1,
+            backgroundColor: ['rgb(3, 98, 100)']  
+        },{ // to add another set of data to the same chart,
+            // add it as another set within the datasets array
+            label: 'Hydro',
+            data: [1165.06,1198.89,1272.54,1321.71,1300],
+            borderWidth: 1,
+            backgroundColor: ['rgb(113, 98, 100)']  
+        }]
+        },
+        options: {
+        scales: {
+            y: {
+            beginAtZero: true
+            }
+        }
+        }
+    });
+
+    
+    </script>
+    <script>
+
+        const lineChart = document.getElementById('chart2');
+
+        new Chart(lineChart, {
+        // type of chart we want to create
+        type: 'line',
+        // the data for the chart
+        data: {
+        labels: [2017, 2018, 2019, 2020, 2021],
+        
+        // add the data
+        datasets: [{
+            label: 'PM2.5 (Particles in air)',
+            data: [92,116,110,110,102],
+            borderWidth: 1,
+            backgroundColor: ['teal'],
+            borderColor: 'black'
+        }]
+        },
+        options: {
+        scales: {
+            y: {
+            beginAtZero: false
+            }
+        }
+        }
+
+    });
+    
+    </script>
+        </script>
+
+        
+    </body>
+    </html>
