@@ -1,0 +1,29 @@
+{
+  "BANGLADESH": {
+    "Dhaka": {
+      "2017": {
+        "_id": {
+          "$oid": "65a8786152bfac46437ab88d"
+        },
+        "Country Code": "BGD",
+        "Electricity PRODUCTION from wind (TWh)": 0.01,
+        "Electricity PRODUCTION from hydro (TWh)": 1.03,
+        "Electricity PRODUCTION from solar (TWh)": 0.25,
+        "PRODUCTION of other renewables including bioenergy (TWh)": 0.03,
+        "SHARE of Renewables (% electricity)": 1.9155419,
+        "Population Rank": 8,
+        "Population": 169828911,
+        "Hydro ELECTRIC SHARE ONLY  (% electricity)": 1.4947032,
+        "Hydro SHARE ALL (% equivalent primary energy)": 0.7132308,
+        "Electricity CONSUMPTION from hydro (TWh)": 1.03,
+        "Wind SHARE ELECTRIC ONLY  (% electricity)": 0.014511681,
+        "Wind SHARE ALL  (% equivalent primary energy)": 0.003521487,
+        "Electricity GENERATED from wind (TWh)": 0.01,
+        "Solar ELECTRICITY ONLY (% electricity)": 0.36279202,
+        "Solar SHARE ALL (% equivalent primary energy)": 0.17552204,
+        "Electricity CONSUMED from solar (TWh)": 0.25,
+        "Air Pollution": 80
+      }
+    }
+  }
+}

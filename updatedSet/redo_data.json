@@ -1,0 +1,434 @@
+{
+  "BANGLADESH": {
+    "City": {
+      "Dhaka": {
+        "_id": {
+          "$oid": "65a8786152bfac46437ab891"
+        },
+        "Country Code": "BGD",
+        "Year": 2021,
+        "Electricity PRODUCTION from wind (TWh)": 0.01,
+        "Electricity PRODUCTION from hydro (TWh)": 0.88,
+        "Electricity PRODUCTION from solar (TWh)": 0.47,
+        "PRODUCTION of other renewables including bioenergy (TWh)": 0.03,
+        "SHARE of Renewables (% electricity)": 1.7252079,
+        "Population Rank": 8,
+        "Population": 169828911,
+        "Hydro ELECTRIC SHARE ONLY  (% electricity)": 1.0922179,
+        "Hydro SHARE ALL (% equivalent primary energy)": 0.38842055,
+        "Electricity CONSUMPTION from hydro (TWh)": 0.88,
+        "Wind SHARE ELECTRIC ONLY  (% electricity)": 0.012411567,
+        "Wind SHARE ALL  (% equivalent primary energy)": 0.002896578,
+        "Electricity GENERATED from wind (TWh)": 0.01,
+        "Solar ELECTRICITY ONLY (% electricity)": 0.5833437,
+        "Solar SHARE ALL (% equivalent primary energy)": 0.25673142,
+        "Electricity CONSUMED from solar (TWh)": 0.47,
+        "Air Pollution": 78
+      }
+    }
+  },
+  "CHINA": {
+    "City": {
+      "Beijing": {
+        "_id": {
+          "$oid": "65a8786152bfac46437ab896"
+        },
+        "Country Code": "CHN",
+        "Year": 2021,
+        "Electricity PRODUCTION from wind (TWh)": 655.6,
+        "Electricity PRODUCTION from hydro (TWh)": 1300,
+        "Electricity PRODUCTION from solar (TWh)": 327,
+        "PRODUCTION of other renewables including bioenergy (TWh)": 169.93158,
+        "SHARE of Renewables (% electricity)": 28.907642,
+        "Population Rank": 1,
+        "Population": 1411750000,
+        "Hydro ELECTRIC SHARE ONLY  (% electricity)": 15.322926,
+        "Hydro SHARE ALL (% equivalent primary energy)": 7.768007,
+        "Electricity CONSUMPTION from hydro (TWh)": 1300,
+        "Wind SHARE ELECTRIC ONLY  (% electricity)": 7.7274694,
+        "Wind SHARE ALL  (% equivalent primary energy)": 3.9174657,
+        "Electricity GENERATED from wind (TWh)": 655.6,
+        "Solar ELECTRICITY ONLY (% electricity)": 3.854305,
+        "Solar SHARE ALL (% equivalent primary energy)": 1.9539526,
+        "Electricity CONSUMED from solar (TWh)": 327,
+        "Air Pollution": 34
+      },
+      "Hotan": {
+        "_id": {
+          "$oid": "65a8786152bfac46437ab89b"
+        },
+        "Country Code": "CHN",
+        "Year": 2021,
+        "Electricity PRODUCTION from wind (TWh)": 655.6,
+        "Electricity PRODUCTION from hydro (TWh)": 1300,
+        "Electricity PRODUCTION from solar (TWh)": 327,
+        "PRODUCTION of other renewables including bioenergy (TWh)": 169.93158,
+        "SHARE of Renewables (% electricity)": 28.907642,
+        "Population Rank": 1,
+        "Population": 1411750000,
+        "Hydro ELECTRIC SHARE ONLY  (% electricity)": 15.322926,
+        "Hydro SHARE ALL (% equivalent primary energy)": 7.768007,
+        "Electricity CONSUMPTION from hydro (TWh)": 1300,
+        "Wind SHARE ELECTRIC ONLY  (% electricity)": 7.7274694,
+        "Wind SHARE ALL  (% equivalent primary energy)": 3.9174657,
+        "Electricity GENERATED from wind (TWh)": 655.6,
+        "Solar ELECTRICITY ONLY (% electricity)": 3.854305,
+        "Solar SHARE ALL (% equivalent primary energy)": 1.9539526,
+        "Electricity CONSUMED from solar (TWh)": 327,
+        "Air Pollution": 102
+      }
+    }
+  },
+  "FRANCE": {
+    "City": {
+      "Passy": {
+        "_id": {
+          "$oid": "65a8786152bfac46437ab8a0"
+        },
+        "Country Code": "FRA",
+        "Year": 2021,
+        "Electricity PRODUCTION from wind (TWh)": 36.83,
+        "Electricity PRODUCTION from hydro (TWh)": 59.62,
+        "Electricity PRODUCTION from solar (TWh)": 15.73,
+        "PRODUCTION of other renewables including bioenergy (TWh)": 10.18,
+        "SHARE of Renewables (% electricity)": 22.231913,
+        "Population Rank": 21,
+        "Population": 68221000,
+        "Hydro ELECTRIC SHARE ONLY  (% electricity)": 10.832516,
+        "Hydro SHARE ALL (% equivalent primary energy)": 5.8052735,
+        "Electricity CONSUMPTION from hydro (TWh)": 59.62,
+        "Wind SHARE ELECTRIC ONLY  (% electricity)": 6.6917405,
+        "Wind SHARE ALL  (% equivalent primary energy)": 3.7022312,
+        "Electricity GENERATED from wind (TWh)": 36.83,
+        "Solar ELECTRICITY ONLY (% electricity)": 2.8580253,
+        "Solar SHARE ALL (% equivalent primary energy)": 1.4627429,
+        "Electricity CONSUMED from solar (TWh)": 15.73,
+        "Air Pollution": 11
+      }
+    }
+  },
+  "INDIA": {
+    "City": {
+      "Agra": {
+        "_id": {
+          "$oid": "65a8786152bfac46437ab8a5"
+        },
+        "Country Code": "IND",
+        "Year": 2021,
+        "Electricity PRODUCTION from wind (TWh)": 68.09,
+        "Electricity PRODUCTION from hydro (TWh)": 160.33,
+        "Electricity PRODUCTION from solar (TWh)": 68.31,
+        "PRODUCTION of other renewables including bioenergy (TWh)": 35.473618,
+        "SHARE of Renewables (% electricity)": 19.384392,
+        "Population Rank": 2,
+        "Population": 1392329000,
+        "Hydro ELECTRIC SHARE ONLY  (% electricity)": 9.355507,
+        "Hydro SHARE ALL (% equivalent primary energy)": 4.2628875,
+        "Electricity CONSUMPTION from hydro (TWh)": 160.33,
+        "Wind SHARE ELECTRIC ONLY  (% electricity)": 3.973158,
+        "Wind SHARE ALL  (% equivalent primary energy)": 1.8105556,
+        "Electricity GENERATED from wind (TWh)": 68.09,
+        "Solar ELECTRICITY ONLY (% electricity)": 3.9859955,
+        "Solar SHARE ALL (% equivalent primary energy)": 1.8161811,
+        "Electricity CONSUMED from solar (TWh)": 68.31,
+        "Air Pollution": 73
+      },
+      "Jaipur": {
+        "_id": {
+          "$oid": "65a8786152bfac46437ab8ae"
+        },
+        "Country Code": "IND",
+        "Year": 2021,
+        "Electricity PRODUCTION from wind (TWh)": 68.09,
+        "Electricity PRODUCTION from hydro (TWh)": 160.33,
+        "Electricity PRODUCTION from solar (TWh)": 68.31,
+        "PRODUCTION of other renewables including bioenergy (TWh)": 35.473618,
+        "SHARE of Renewables (% electricity)": 19.384392,
+        "Population Rank": 2,
+        "Population": 1392329000,
+        "Hydro ELECTRIC SHARE ONLY  (% electricity)": 9.355507,
+        "Hydro SHARE ALL (% equivalent primary energy)": 4.2628875,
+        "Electricity CONSUMPTION from hydro (TWh)": 160.33,
+        "Wind SHARE ELECTRIC ONLY  (% electricity)": 3.973158,
+        "Wind SHARE ALL  (% equivalent primary energy)": 1.8105556,
+        "Electricity GENERATED from wind (TWh)": 68.09,
+        "Solar ELECTRICITY ONLY (% electricity)": 3.9859955,
+        "Solar SHARE ALL (% equivalent primary energy)": 1.8161811,
+        "Electricity CONSUMED from solar (TWh)": 68.31,
+        "Air Pollution": 57
+      },
+      "Jalandhar": {
+        "_id": {
+          "$oid": "65a8786152bfac46437ab8ad"
+        },
+        "Country Code": "IND",
+        "Year": 2021,
+        "Electricity PRODUCTION from wind (TWh)": 68.09,
+        "Electricity PRODUCTION from hydro (TWh)": 160.33,
+        "Electricity PRODUCTION from solar (TWh)": 68.31,
+        "PRODUCTION of other renewables including bioenergy (TWh)": 35.473618,
+        "SHARE of Renewables (% electricity)": 19.384392,
+        "Population Rank": 2,
+        "Population": 1392329000,
+        "Hydro ELECTRIC SHARE ONLY  (% electricity)": 9.355507,
+        "Hydro SHARE ALL (% equivalent primary energy)": 4.2628875,
+        "Electricity CONSUMPTION from hydro (TWh)": 160.33,
+        "Wind SHARE ELECTRIC ONLY  (% electricity)": 3.973158,
+        "Wind SHARE ALL  (% equivalent primary energy)": 1.8105556,
+        "Electricity GENERATED from wind (TWh)": 68.09,
+        "Solar ELECTRICITY ONLY (% electricity)": 3.9859955,
+        "Solar SHARE ALL (% equivalent primary energy)": 1.8161811,
+        "Electricity CONSUMED from solar (TWh)": 68.31,
+        "Air Pollution": 58
+      },
+      "Kanpur": {
+        "_id": {
+          "$oid": "65a8786152bfac46437ab8b3"
+        },
+        "Country Code": "IND",
+        "Year": 2021,
+        "Electricity PRODUCTION from wind (TWh)": 68.09,
+        "Electricity PRODUCTION from hydro (TWh)": 160.33,
+        "Electricity PRODUCTION from solar (TWh)": 68.31,
+        "PRODUCTION of other renewables including bioenergy (TWh)": 35.473618,
+        "SHARE of Renewables (% electricity)": 19.384392,
+        "Population Rank": 2,
+        "Population": 1392329000,
+        "Hydro ELECTRIC SHARE ONLY  (% electricity)": 9.355507,
+        "Hydro SHARE ALL (% equivalent primary energy)": 4.2628875,
+        "Electricity CONSUMPTION from hydro (TWh)": 160.33,
+        "Wind SHARE ELECTRIC ONLY  (% electricity)": 3.973158,
+        "Wind SHARE ALL  (% equivalent primary energy)": 1.8105556,
+        "Electricity GENERATED from wind (TWh)": 68.09,
+        "Solar ELECTRICITY ONLY (% electricity)": 3.9859955,
+        "Solar SHARE ALL (% equivalent primary energy)": 1.8161811,
+        "Electricity CONSUMED from solar (TWh)": 68.31,
+        "Air Pollution": 83
+      }
+    }
+  },
+  "JAPAN": {
+    "City": {
+      "Yokote": {
+        "_id": {
+          "$oid": "65a8786152bfac46437ab8b7"
+        },
+        "Country Code": "JPN",
+        "Year": 2021,
+        "Electricity PRODUCTION from wind (TWh)": 8.96,
+        "Electricity PRODUCTION from hydro (TWh)": 79.14,
+        "Electricity PRODUCTION from solar (TWh)": 88.7,
+        "PRODUCTION of other renewables including bioenergy (TWh)": 39.93,
+        "SHARE of Renewables (% electricity)": 22.610664,
+        "Population Rank": 11,
+        "Population": 124310000,
+        "Hydro ELECTRIC SHARE ONLY  (% electricity)": 8.2563925,
+        "Hydro SHARE ALL (% equivalent primary energy)": 4.1224623,
+        "Electricity CONSUMPTION from hydro (TWh)": 79.14,
+        "Wind SHARE ELECTRIC ONLY  (% electricity)": 0.9347647,
+        "Wind SHARE ALL  (% equivalent primary energy)": 0.4380678,
+        "Electricity GENERATED from wind (TWh)": 8.96,
+        "Solar ELECTRICITY ONLY (% electricity)": 9.253753,
+        "Solar SHARE ALL (% equivalent primary energy)": 4.5807147,
+        "Electricity CONSUMED from solar (TWh)": 88.7,
+        "Air Pollution": 16
+      }
+    }
+  },
+  "PAKISTAN": {
+    "City": {
+      "Karachi": {
+        "_id": {
+          "$oid": "65a8786152bfac46437ab8bc"
+        },
+        "Country Code": "PAK",
+        "Year": 2021,
+        "Electricity PRODUCTION from wind (TWh)": 2.88,
+        "Electricity PRODUCTION from hydro (TWh)": 39,
+        "Electricity PRODUCTION from solar (TWh)": 1.26,
+        "PRODUCTION of other renewables including bioenergy (TWh)": 1.52,
+        "SHARE of Renewables (% electricity)": 29.739628,
+        "Population Rank": 5,
+        "Population": 241499431,
+        "Hydro ELECTRIC SHARE ONLY  (% electricity)": 25.970568,
+        "Hydro SHARE ALL (% equivalent primary energy)": 9.204771,
+        "Electricity CONSUMPTION from hydro (TWh)": 39,
+        "Wind SHARE ELECTRIC ONLY  (% electricity)": 1.9178265,
+        "Wind SHARE ALL  (% equivalent primary energy)": 0.8383562,
+        "Electricity GENERATED from wind (TWh)": 2.88,
+        "Solar ELECTRICITY ONLY (% electricity)": 0.8390491,
+        "Solar SHARE ALL (% equivalent primary energy)": 0.37054947,
+        "Electricity CONSUMED from solar (TWh)": 1.26,
+        "Air Pollution": 46
+      }
+    }
+  },
+  "PHILIPPINES": {
+    "City": {
+      "Balanga": {
+        "_id": {
+          "$oid": "65a8786152bfac46437ab8c0"
+        },
+        "Country Code": "PHL",
+        "Year": 2021,
+        "Electricity PRODUCTION from wind (TWh)": 1.17,
+        "Electricity PRODUCTION from hydro (TWh)": 8,
+        "Electricity PRODUCTION from solar (TWh)": 1.5,
+        "PRODUCTION of other renewables including bioenergy (TWh)": 13.27,
+        "SHARE of Renewables (% electricity)": 22.125694,
+        "Population Rank": 12,
+        "Population": 112892781,
+        "Hydro ELECTRIC SHARE ONLY  (% electricity)": 7.3937154,
+        "Hydro SHARE ALL (% equivalent primary energy)": 4.48094,
+        "Electricity CONSUMPTION from hydro (TWh)": 8,
+        "Wind SHARE ELECTRIC ONLY  (% electricity)": 1.0813308,
+        "Wind SHARE ALL  (% equivalent primary energy)": 0.59779865,
+        "Electricity GENERATED from wind (TWh)": 1.17,
+        "Solar ELECTRICITY ONLY (% electricity)": 1.3863217,
+        "Solar SHARE ALL (% equivalent primary energy)": 0.7015576,
+        "Electricity CONSUMED from solar (TWh)": 1.5,
+        "Air Pollution": 5
+      }
+    }
+  },
+  "TURKEY": {
+    "City": {
+      "Giresun": {
+        "_id": {
+          "$oid": "65a8786152bfac46437ab8c4"
+        },
+        "Country Code": "TUR",
+        "Year": 2021,
+        "Electricity PRODUCTION from wind (TWh)": 31.21,
+        "Electricity PRODUCTION from hydro (TWh)": 55.74,
+        "Electricity PRODUCTION from solar (TWh)": 12.97,
+        "PRODUCTION of other renewables including bioenergy (TWh)": 17.12,
+        "SHARE of Renewables (% electricity)": 35.32963,
+        "Population Rank": 17,
+        "Population": 85279553,
+        "Hydro ELECTRIC SHARE ONLY  (% electricity)": 16.825645,
+        "Hydro SHARE ALL (% equivalent primary energy)": 7.6846533,
+        "Electricity CONSUMPTION from hydro (TWh)": 55.74,
+        "Wind SHARE ELECTRIC ONLY  (% electricity)": 9.421034,
+        "Wind SHARE ALL  (% equivalent primary energy)": 4.296244,
+        "Electricity GENERATED from wind (TWh)": 31.21,
+        "Solar ELECTRICITY ONLY (% electricity)": 3.915117,
+        "Solar SHARE ALL (% equivalent primary energy)": 1.7707769,
+        "Electricity CONSUMED from solar (TWh)": 12.97,
+        "Air Pollution": 24
+      }
+    }
+  },
+  "UNITED KINGDOM": {
+    "City": {
+      "London": {
+        "_id": {
+          "$oid": "65a8786152bfac46437ab8c9"
+        },
+        "Country Code": "GBR",
+        "Year": 2021,
+        "Electricity PRODUCTION from wind (TWh)": 65.02,
+        "Electricity PRODUCTION from hydro (TWh)": 5.59,
+        "Electricity PRODUCTION from solar (TWh)": 12.47,
+        "PRODUCTION of other renewables including bioenergy (TWh)": 39.12,
+        "SHARE of Renewables (% electricity)": 39.783825,
+        "Population Rank": 22,
+        "Population": 67026292,
+        "Hydro ELECTRIC SHARE ONLY  (% electricity)": 1.8198984,
+        "Hydro SHARE ALL (% equivalent primary energy)": 0.6580011,
+        "Electricity CONSUMPTION from hydro (TWh)": 5.59,
+        "Wind SHARE ELECTRIC ONLY  (% electricity)": 21.16812,
+        "Wind SHARE ALL  (% equivalent primary energy)": 8.457683,
+        "Electricity GENERATED from wind (TWh)": 65.02,
+        "Solar ELECTRICITY ONLY (% electricity)": 4.0597734,
+        "Solar SHARE ALL (% equivalent primary energy)": 1.6249489,
+        "Electricity CONSUMED from solar (TWh)": 12.47,
+        "Air Pollution": 10
+      }
+    }
+  },
+  "UNITED STATES": {
+    "City": {
+      "Los Angles": {
+        "_id": {
+          "$oid": "65a8786152bfac46437ab8ce"
+        },
+        "Country Code": "USA",
+        "Year": 2021,
+        "Electricity PRODUCTION from wind (TWh)": 378.2,
+        "Electricity PRODUCTION from hydro (TWh)": 246.47,
+        "Electricity PRODUCTION from solar (TWh)": 164.42,
+        "PRODUCTION of other renewables including bioenergy (TWh)": 72.49,
+        "SHARE of Renewables (% electricity)": 20.749863,
+        "Population Rank": 3,
+        "Population": 335893238,
+        "Hydro ELECTRIC SHARE ONLY  (% electricity)": 5.9358606,
+        "Hydro SHARE ALL (% equivalent primary energy)": 2.6109571,
+        "Electricity CONSUMPTION from hydro (TWh)": 246.47,
+        "Wind SHARE ELECTRIC ONLY  (% electricity)": 9.10838,
+        "Wind SHARE ALL  (% equivalent primary energy)": 3.88673,
+        "Electricity GENERATED from wind (TWh)": 378.2,
+        "Solar ELECTRICITY ONLY (% electricity)": 3.9598093,
+        "Solar SHARE ALL (% equivalent primary energy)": 1.6754191,
+        "Electricity CONSUMED from solar (TWh)": 164.42,
+        "Air Pollution": 18
+      }
+    }
+  },
+  "VIETNAM": {
+    "City": {
+      "Hanoi": {
+        "_id": {
+          "$oid": "65a8786152bfac46437ab8d2"
+        },
+        "Country Code": "VNM",
+        "Year": 2021,
+        "Electricity PRODUCTION from wind (TWh)": 2.39,
+        "Electricity PRODUCTION from hydro (TWh)": 75.9,
+        "Electricity PRODUCTION from solar (TWh)": 25.77,
+        "PRODUCTION of other renewables including bioenergy (TWh)": 0.1580361,
+        "SHARE of Renewables (% electricity)": 42.578747,
+        "Population Rank": 15,
+        "Population": 100000000,
+        "Hydro ELECTRIC SHARE ONLY  (% electricity)": 31.008701,
+        "Hydro SHARE ALL (% equivalent primary energy)": 16.551159,
+        "Electricity CONSUMPTION from hydro (TWh)": 75.9,
+        "Wind SHARE ELECTRIC ONLY  (% electricity)": 0.9764269,
+        "Wind SHARE ALL  (% equivalent primary energy)": 0.5215315,
+        "Electricity GENERATED from wind (TWh)": 2.39,
+        "Solar ELECTRICITY ONLY (% electricity)": 10.528251,
+        "Solar SHARE ALL (% equivalent primary energy)": 5.6196747,
+        "Electricity CONSUMED from solar (TWh)": 25.77,
+        "Air Pollution": 36
+      }
+    }
+  },
+  "BRAZIL": {
+    "City": {
+      "Ribeirao Preto": {
+        "_id": {
+          "$oid": "65a8786152bfac46437ab8d7"
+        },
+        "Country Code": "BRA",
+        "Year": 2021,
+        "Electricity PRODUCTION from wind (TWh)": 71.5,
+        "Electricity PRODUCTION from hydro (TWh)": 362.82,
+        "Electricity PRODUCTION from solar (TWh)": 16.75,
+        "PRODUCTION of other renewables including bioenergy (TWh)": 57.6,
+        "SHARE of Renewables (% electricity)": 76.7711,
+        "Population Rank": 7,
+        "Population": 203062512,
+        "Hydro ELECTRIC SHARE ONLY  (% electricity)": 54.75867,
+        "Hydro SHARE ALL (% equivalent primary energy)": 27.199343,
+        "Electricity CONSUMPTION from hydro (TWh)": 362.82,
+        "Wind SHARE ELECTRIC ONLY  (% electricity)": 10.791149,
+        "Wind SHARE ALL  (% equivalent primary energy)": 5.4190493,
+        "Electricity GENERATED from wind (TWh)": 71.5,
+        "Solar ELECTRICITY ONLY (% electricity)": 2.5279965,
+        "Solar SHARE ALL (% equivalent primary energy)": 1.2558651,
+        "Electricity CONSUMED from solar (TWh)": 16.75,
+        "Air Pollution": 12
+      }
+    }
+  }
+}
