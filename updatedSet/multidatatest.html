@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hotan China Energy Chart</title>
+    <!-- Include Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+<body>
+
+<!-- Create a canvas element to render the chart -->
+<head>
+    <body style="background-color:rgb(49, 24, 14)"> 
+        <center>
+        <div class="col-8 offset-0 my-5">
+            <div class="card">
+            <div class="card-body">
+                <h1>Hotan Renewable Energy Production (in TWh)</h1>
+                <hr>
+                <div>
+                    <canvas id="renewableChart" width="300" height="100"></canvas>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-6 offset-0 my-5">
+            <div class="card">
+            <div class="card-body">
+                <h2>Hotan Air Pollution Over The Years</h2>
+                <hr>
+                    <div>
+                        <canvas id="chart2" width="200" height="100"></canvas>
+                    </div>
+            </div>
+        </div>
+    </div>
+    </center>
+    </body>
+
+</head>
+<script>
+// Function to fetch JSON data from a file
+async function fetchJsonData(url) {
+  const response = await fetch(url);
+  const data = await response.json();
+  return data;
+}
+
+// Specify the path to your JSON file
+const jsonFilePath = 'https://raw.githubusercontent.com/LuzMaria04/Project-03-Team-Crystal-Egg/main/file_reorganized.json';
+
+// Fetch JSON data
+fetchJsonData(jsonFilePath)
+  .then(jsonData => {
+    // Extracting air pollution data for a specific city
+    const cityData = jsonData["CHINA"]["Beijing"];
+    const cityData2 = jsonData["CHINA"]["Hotan"];
+
+    // Extracting years and air energy values
+    const years = Object.keys(cityData);
+    const airEnergyValues = years.map(year => cityData[year]["Electricity PRODUCTION from wind (TWh)"]);
+
+    // Extracting years and hydro energy values
+    const years2 = Object.keys(cityData);
+    const hydroEnergyValues = years2.map(year => cityData[year]["Electricity PRODUCTION from hydro (TWh)"]);
+
+    // Extracting years and air energy values
+    const years3 = Object.keys(cityData);
+    const solarEnergyValues = years3.map(year => cityData[year]["Electricity PRODUCTION from solar (TWh)"]);
+
+    // Extracting years and air pollution values
+    const years4 = Object.keys(cityData);
+    const airPollutionValues = years.map(year => cityData[year]["Air Pollution"]);
+
+    // Create a Chart.js chart
+    const ctx = document.getElementById('renewableChart').getContext('2d');
+    const airPollutionChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: years,
+        datasets: [{
+          label: 'Air',
+          data: airEnergyValues,
+          borderColor: 'rgba(43, 255, 40, 1)',
+          backgroundColor: 'rgba(43, 255, 40, 0.5)',
+          borderWidth: 2,
+          fill: true
+        },{
+          label: 'Hydro',
+          data: hydroEnergyValues,
+          borderColor: 'rgba(40, 244, 255, 1)',
+          backgroundColor: 'rgba(40, 244, 255, 0.5)',
+          borderWidth: 2,
+          fill: true
+        },{
+          label: 'Solar',
+          data: solarEnergyValues,
+          borderColor: 'rgba(255, 241, 40, 1)',
+          backgroundColor: 'rgba(255, 241, 40, 0.5)',
+          borderWidth: 2,
+          fill: true
+        }]
+      },
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true
+          }
+        }
+      }
+    });
+    
+    const lineChart = document.getElementById('chart2');
+
+        new Chart(lineChart, {
+        // type of chart we want to create
+        type: 'line',
+        // the data for the chart
+        data: {
+        labels: years,
+
+        // add the data
+        datasets: [{
+            label: 'PM2.5 (Particles in air)',
+            data: airPollutionValues,
+            borderWidth: 1,
+            backgroundColor: ['rgba(0, 0, 0, 0.5)'],
+            borderColor: 'rgba(0, 0, 0, 1)'
+        }]
+        },
+        options: {
+        scales: {
+            y: {
+            beginAtZero: false
+            }
+        }
+        }
+
+        });
+
+
+    })
+  .catch(error => console.error('Error fetching JSON data:', error));
+  
+
+</script>
+
+<script>
+
+
+
+</script>
+</body>
+</html>
