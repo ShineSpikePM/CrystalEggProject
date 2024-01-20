@@ -1,8 +1,8 @@
 [
   {
-    "country": "BANGLADESH",
-    "city": "Dhaka",
     "year": 2017,
+    "city": "Dhaka",
+    "country": "BANGLADESH",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab88d"
@@ -28,9 +28,9 @@
     }
   },
   {
-    "country": "BANGLADESH",
-    "city": "Dhaka",
     "year": 2018,
+    "city": "Dhaka",
+    "country": "BANGLADESH",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab88e"
@@ -56,9 +56,9 @@
     }
   },
   {
-    "country": "BANGLADESH",
-    "city": "Dhaka",
     "year": 2019,
+    "city": "Dhaka",
+    "country": "BANGLADESH",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab88f"
@@ -84,9 +84,9 @@
     }
   },
   {
-    "country": "BANGLADESH",
-    "city": "Dhaka",
     "year": 2020,
+    "city": "Dhaka",
+    "country": "BANGLADESH",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab890"
@@ -112,9 +112,9 @@
     }
   },
   {
-    "country": "BANGLADESH",
-    "city": "Dhaka",
     "year": 2021,
+    "city": "Dhaka",
+    "country": "BANGLADESH",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab891"
@@ -140,9 +140,9 @@
     }
   },
   {
-    "country": "CHINA",
-    "city": "Beijing",
     "year": 2017,
+    "city": "Beijing",
+    "country": "CHINA",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab892"
@@ -168,9 +168,9 @@
     }
   },
   {
-    "country": "CHINA",
-    "city": "Beijing",
     "year": 2018,
+    "city": "Beijing",
+    "country": "CHINA",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab893"
@@ -196,9 +196,9 @@
     }
   },
   {
-    "country": "CHINA",
-    "city": "Beijing",
     "year": 2019,
+    "city": "Beijing",
+    "country": "CHINA",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab894"
@@ -224,9 +224,9 @@
     }
   },
   {
-    "country": "CHINA",
-    "city": "Beijing",
     "year": 2020,
+    "city": "Beijing",
+    "country": "CHINA",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab895"
@@ -252,9 +252,9 @@
     }
   },
   {
-    "country": "CHINA",
-    "city": "Beijing",
     "year": 2021,
+    "city": "Beijing",
+    "country": "CHINA",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab896"
@@ -280,9 +280,9 @@
     }
   },
   {
-    "country": "CHINA",
-    "city": "Hotan",
     "year": 2017,
+    "city": "Hotan",
+    "country": "CHINA",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab897"
@@ -308,9 +308,9 @@
     }
   },
   {
-    "country": "CHINA",
-    "city": "Hotan",
     "year": 2018,
+    "city": "Hotan",
+    "country": "CHINA",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab898"
@@ -336,9 +336,9 @@
     }
   },
   {
-    "country": "CHINA",
-    "city": "Hotan",
     "year": 2019,
+    "city": "Hotan",
+    "country": "CHINA",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab899"
@@ -364,9 +364,9 @@
     }
   },
   {
-    "country": "CHINA",
-    "city": "Hotan",
     "year": 2020,
+    "city": "Hotan",
+    "country": "CHINA",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab89a"
@@ -392,9 +392,9 @@
     }
   },
   {
-    "country": "CHINA",
-    "city": "Hotan",
     "year": 2021,
+    "city": "Hotan",
+    "country": "CHINA",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab89b"
@@ -420,9 +420,9 @@
     }
   },
   {
-    "country": "FRANCE",
-    "city": "Passy",
     "year": 2017,
+    "city": "Passy",
+    "country": "FRANCE",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab89c"
@@ -448,9 +448,9 @@
     }
   },
   {
-    "country": "FRANCE",
-    "city": "Passy",
     "year": 2018,
+    "city": "Passy",
+    "country": "FRANCE",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab89d"
@@ -476,9 +476,9 @@
     }
   },
   {
-    "country": "FRANCE",
-    "city": "Passy",
     "year": 2019,
+    "city": "Passy",
+    "country": "FRANCE",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab89e"
@@ -504,9 +504,9 @@
     }
   },
   {
-    "country": "FRANCE",
-    "city": "Passy",
     "year": 2020,
+    "city": "Passy",
+    "country": "FRANCE",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab89f"
@@ -532,9 +532,9 @@
     }
   },
   {
-    "country": "FRANCE",
-    "city": "Passy",
     "year": 2021,
+    "city": "Passy",
+    "country": "FRANCE",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8a0"
@@ -560,9 +560,9 @@
     }
   },
   {
-    "country": "INDIA",
-    "city": "Agra",
     "year": 2017,
+    "city": "Agra",
+    "country": "INDIA",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8a1"
@@ -588,9 +588,9 @@
     }
   },
   {
-    "country": "INDIA",
-    "city": "Agra",
     "year": 2018,
+    "city": "Agra",
+    "country": "INDIA",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8a2"
@@ -616,9 +616,9 @@
     }
   },
   {
-    "country": "INDIA",
-    "city": "Agra",
     "year": 2019,
+    "city": "Agra",
+    "country": "INDIA",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8a3"
@@ -644,9 +644,9 @@
     }
   },
   {
-    "country": "INDIA",
-    "city": "Agra",
     "year": 2020,
+    "city": "Agra",
+    "country": "INDIA",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8a4"
@@ -672,9 +672,9 @@
     }
   },
   {
-    "country": "INDIA",
-    "city": "Agra",
     "year": 2021,
+    "city": "Agra",
+    "country": "INDIA",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8a5"
@@ -700,9 +700,9 @@
     }
   },
   {
-    "country": "INDIA",
-    "city": "Jaipur",
     "year": 2018,
+    "city": "Jaipur",
+    "country": "INDIA",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8a6"
@@ -728,9 +728,9 @@
     }
   },
   {
-    "country": "INDIA",
-    "city": "Jaipur",
     "year": 2019,
+    "city": "Jaipur",
+    "country": "INDIA",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8a7"
@@ -756,9 +756,9 @@
     }
   },
   {
-    "country": "INDIA",
-    "city": "Jaipur",
     "year": 2020,
+    "city": "Jaipur",
+    "country": "INDIA",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8a8"
@@ -784,9 +784,9 @@
     }
   },
   {
-    "country": "INDIA",
-    "city": "Jaipur",
     "year": 2021,
+    "city": "Jaipur",
+    "country": "INDIA",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8ae"
@@ -812,9 +812,9 @@
     }
   },
   {
-    "country": "INDIA",
-    "city": "Jalandhar",
     "year": 2018,
+    "city": "Jalandhar",
+    "country": "INDIA",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8aa"
@@ -840,9 +840,9 @@
     }
   },
   {
-    "country": "INDIA",
-    "city": "Jalandhar",
     "year": 2019,
+    "city": "Jalandhar",
+    "country": "INDIA",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8ab"
@@ -868,9 +868,9 @@
     }
   },
   {
-    "country": "INDIA",
-    "city": "Jalandhar",
     "year": 2020,
+    "city": "Jalandhar",
+    "country": "INDIA",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8ac"
@@ -896,9 +896,9 @@
     }
   },
   {
-    "country": "INDIA",
-    "city": "Jalandhar",
     "year": 2021,
+    "city": "Jalandhar",
+    "country": "INDIA",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8ad"
@@ -924,9 +924,9 @@
     }
   },
   {
-    "country": "INDIA",
-    "city": "Kanpur",
     "year": 2017,
+    "city": "Kanpur",
+    "country": "INDIA",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8af"
@@ -952,9 +952,9 @@
     }
   },
   {
-    "country": "INDIA",
-    "city": "Kanpur",
     "year": 2018,
+    "city": "Kanpur",
+    "country": "INDIA",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8b0"
@@ -980,9 +980,9 @@
     }
   },
   {
-    "country": "INDIA",
-    "city": "Kanpur",
     "year": 2019,
+    "city": "Kanpur",
+    "country": "INDIA",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8b1"
@@ -1008,9 +1008,9 @@
     }
   },
   {
-    "country": "INDIA",
-    "city": "Kanpur",
     "year": 2020,
+    "city": "Kanpur",
+    "country": "INDIA",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8b2"
@@ -1036,9 +1036,9 @@
     }
   },
   {
-    "country": "INDIA",
-    "city": "Kanpur",
     "year": 2021,
+    "city": "Kanpur",
+    "country": "INDIA",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8b3"
@@ -1064,9 +1064,9 @@
     }
   },
   {
-    "country": "JAPAN",
-    "city": "Yokote",
     "year": 2017,
+    "city": "Yokote",
+    "country": "JAPAN",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8b4"
@@ -1092,9 +1092,9 @@
     }
   },
   {
-    "country": "JAPAN",
-    "city": "Yokote",
     "year": 2018,
+    "city": "Yokote",
+    "country": "JAPAN",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8b5"
@@ -1120,9 +1120,9 @@
     }
   },
   {
-    "country": "JAPAN",
-    "city": "Yokote",
     "year": 2019,
+    "city": "Yokote",
+    "country": "JAPAN",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8b6"
@@ -1148,9 +1148,9 @@
     }
   },
   {
-    "country": "JAPAN",
-    "city": "Yokote",
     "year": 2021,
+    "city": "Yokote",
+    "country": "JAPAN",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8b7"
@@ -1176,9 +1176,9 @@
     }
   },
   {
-    "country": "PAKISTAN",
-    "city": "Karachi",
     "year": 2017,
+    "city": "Karachi",
+    "country": "PAKISTAN",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8b8"
@@ -1204,9 +1204,9 @@
     }
   },
   {
-    "country": "PAKISTAN",
-    "city": "Karachi",
     "year": 2018,
+    "city": "Karachi",
+    "country": "PAKISTAN",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8b9"
@@ -1232,9 +1232,9 @@
     }
   },
   {
-    "country": "PAKISTAN",
-    "city": "Karachi",
     "year": 2019,
+    "city": "Karachi",
+    "country": "PAKISTAN",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8ba"
@@ -1260,9 +1260,9 @@
     }
   },
   {
-    "country": "PAKISTAN",
-    "city": "Karachi",
     "year": 2020,
+    "city": "Karachi",
+    "country": "PAKISTAN",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8bb"
@@ -1288,9 +1288,9 @@
     }
   },
   {
-    "country": "PAKISTAN",
-    "city": "Karachi",
     "year": 2021,
+    "city": "Karachi",
+    "country": "PAKISTAN",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8bc"
@@ -1316,9 +1316,9 @@
     }
   },
   {
-    "country": "PHILIPPINES",
-    "city": "Balanga",
     "year": 2017,
+    "city": "Balanga",
+    "country": "PHILIPPINES",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8bd"
@@ -1344,9 +1344,9 @@
     }
   },
   {
-    "country": "PHILIPPINES",
-    "city": "Balanga",
     "year": 2018,
+    "city": "Balanga",
+    "country": "PHILIPPINES",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8be"
@@ -1372,9 +1372,9 @@
     }
   },
   {
-    "country": "PHILIPPINES",
-    "city": "Balanga",
     "year": 2019,
+    "city": "Balanga",
+    "country": "PHILIPPINES",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8bf"
@@ -1400,9 +1400,9 @@
     }
   },
   {
-    "country": "PHILIPPINES",
-    "city": "Balanga",
     "year": 2021,
+    "city": "Balanga",
+    "country": "PHILIPPINES",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8c0"
@@ -1428,9 +1428,9 @@
     }
   },
   {
-    "country": "TURKEY",
-    "city": "Giresun",
     "year": 2018,
+    "city": "Giresun",
+    "country": "TURKEY",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8c1"
@@ -1456,9 +1456,9 @@
     }
   },
   {
-    "country": "TURKEY",
-    "city": "Giresun",
     "year": 2019,
+    "city": "Giresun",
+    "country": "TURKEY",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8c2"
@@ -1484,9 +1484,9 @@
     }
   },
   {
-    "country": "TURKEY",
-    "city": "Giresun",
     "year": 2020,
+    "city": "Giresun",
+    "country": "TURKEY",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8c3"
@@ -1512,9 +1512,9 @@
     }
   },
   {
-    "country": "TURKEY",
-    "city": "Giresun",
     "year": 2021,
+    "city": "Giresun",
+    "country": "TURKEY",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8c4"
@@ -1540,9 +1540,9 @@
     }
   },
   {
-    "country": "UNITED KINGDOM",
-    "city": "London",
     "year": 2017,
+    "city": "London",
+    "country": "UNITED KINGDOM",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8c5"
@@ -1568,9 +1568,9 @@
     }
   },
   {
-    "country": "UNITED KINGDOM",
-    "city": "London",
     "year": 2018,
+    "city": "London",
+    "country": "UNITED KINGDOM",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8c6"
@@ -1596,9 +1596,9 @@
     }
   },
   {
-    "country": "UNITED KINGDOM",
-    "city": "London",
     "year": 2019,
+    "city": "London",
+    "country": "UNITED KINGDOM",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8c7"
@@ -1624,9 +1624,9 @@
     }
   },
   {
-    "country": "UNITED KINGDOM",
-    "city": "London",
     "year": 2020,
+    "city": "London",
+    "country": "UNITED KINGDOM",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8c8"
@@ -1652,9 +1652,9 @@
     }
   },
   {
-    "country": "UNITED KINGDOM",
-    "city": "London",
     "year": 2021,
+    "city": "London",
+    "country": "UNITED KINGDOM",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8c9"
@@ -1680,9 +1680,9 @@
     }
   },
   {
-    "country": "UNITED STATES",
-    "city": "Los Angles",
     "year": 2017,
+    "city": "Los Angles",
+    "country": "UNITED STATES",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8ca"
@@ -1708,9 +1708,9 @@
     }
   },
   {
-    "country": "UNITED STATES",
-    "city": "Los Angles",
     "year": 2018,
+    "city": "Los Angles",
+    "country": "UNITED STATES",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8cb"
@@ -1736,9 +1736,9 @@
     }
   },
   {
-    "country": "UNITED STATES",
-    "city": "Los Angles",
     "year": 2019,
+    "city": "Los Angles",
+    "country": "UNITED STATES",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8cc"
@@ -1764,9 +1764,9 @@
     }
   },
   {
-    "country": "UNITED STATES",
-    "city": "Los Angles",
     "year": 2020,
+    "city": "Los Angles",
+    "country": "UNITED STATES",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8cd"
@@ -1792,9 +1792,9 @@
     }
   },
   {
-    "country": "UNITED STATES",
-    "city": "Los Angles",
     "year": 2021,
+    "city": "Los Angles",
+    "country": "UNITED STATES",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8ce"
@@ -1820,9 +1820,9 @@
     }
   },
   {
-    "country": "VIETNAM",
-    "city": "Hanoi",
     "year": 2018,
+    "city": "Hanoi",
+    "country": "VIETNAM",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8cf"
@@ -1848,9 +1848,9 @@
     }
   },
   {
-    "country": "VIETNAM",
-    "city": "Hanoi",
     "year": 2019,
+    "city": "Hanoi",
+    "country": "VIETNAM",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8d0"
@@ -1876,9 +1876,9 @@
     }
   },
   {
-    "country": "VIETNAM",
-    "city": "Hanoi",
     "year": 2020,
+    "city": "Hanoi",
+    "country": "VIETNAM",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8d1"
@@ -1904,9 +1904,9 @@
     }
   },
   {
-    "country": "VIETNAM",
-    "city": "Hanoi",
     "year": 2021,
+    "city": "Hanoi",
+    "country": "VIETNAM",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8d2"
@@ -1932,9 +1932,9 @@
     }
   },
   {
-    "country": "BRAZIL",
-    "city": "Ribeirao Preto",
     "year": 2017,
+    "city": "Ribeirao Preto",
+    "country": "BRAZIL",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8d3"
@@ -1960,9 +1960,9 @@
     }
   },
   {
-    "country": "BRAZIL",
-    "city": "Ribeirao Preto",
     "year": 2018,
+    "city": "Ribeirao Preto",
+    "country": "BRAZIL",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8d4"
@@ -1988,9 +1988,9 @@
     }
   },
   {
-    "country": "BRAZIL",
-    "city": "Ribeirao Preto",
     "year": 2019,
+    "city": "Ribeirao Preto",
+    "country": "BRAZIL",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8d5"
@@ -2016,9 +2016,9 @@
     }
   },
   {
-    "country": "BRAZIL",
-    "city": "Ribeirao Preto",
     "year": 2020,
+    "city": "Ribeirao Preto",
+    "country": "BRAZIL",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8d6"
@@ -2044,9 +2044,9 @@
     }
   },
   {
-    "country": "BRAZIL",
-    "city": "Ribeirao Preto",
     "year": 2021,
+    "city": "Ribeirao Preto",
+    "country": "BRAZIL",
     "data": {
       "_id": {
         "$oid": "65a8786152bfac46437ab8d7"
